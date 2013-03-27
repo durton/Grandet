@@ -1,4 +1,7 @@
 /* CSS Document */
-html, body {height:100%; overflow:hidden;}
+html, body {height:100%; overflow:hidden; background-image:url(../img/frontPageBg.png);}
 
+.btnArea {height:40px; background-color:#4d6eb1; line-height:40px; cursor:pointer; padding:0 20px;}
 
+.btnArea a {margin:5px; padding:3px; background-color:#FFF; color:#666;}
+.btnArea a:hover {color:#FFF; background-color:#900;}
