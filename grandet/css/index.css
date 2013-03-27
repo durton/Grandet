@@ -1,0 +1,29 @@
+/* CSS Document */
+html, body {height:100%; overflow:hidden; background-color:#f4f4f4;}
+
+.sd_left {float:left;}
+.sd_right {float:right;}
+.sd_clear {clear:both;}
+
+/**头部**/
+.sd_head {background-color:#039; border-bottom:2px #cb8700 solid; color:#CCC;}
+.sd_head .wrap {width:980px; height:40px; margin:auto;}
+.logo {font-size:14px; margin-top:15px;}
+.sysName {width:300px; text-align:center; margin:auto; font-size:20px; font-weight:bold; padding-top:8px;}
+.userInfo {font-size:12px; margin-top:-8px;}
+
+/**主区域**/
+.sd_body {width:980px; margin:auto; margin-top:20px;}
+
+/*菜单区域*/
+.menus {width:222px; height:100%; background-color:#dee0e4;}
+.menus {overflow:auto;}
+.m_head {height:40px; line-height:40px; padding-left:10px; color:#CCC; font-weight:bold; background-color:#4d6eb1;}
+.topMenu {height:30px; margin-top:5px; cursor:pointer; padding-left:15px; line-height:30px; border-bottom:1px #b0b4be solid; font-weight:bold;}
+.subMenus {border-top:1px #fff solid;}
+.subMenu {height:30px; cursor:pointer; line-height:30px; padding-left:20px; margin:0 10px;  border-bottom:1px #cbcfd9 solid;display:none;}
+.subMenu:hover {color:#0055ff; background-color:#f0f1f3;}
+.subMenuActive {color:#0055ff;}
+/*主页面*/
+.mainPage {width:740px; height:100%}
+.mainPage iframe {width:100%; height:100%; overflow-x:auto;}
