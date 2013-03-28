@@ -1,7 +1,36 @@
 /* CSS Document */
-html, body {height:100%; overflow:hidden; background-image:url(../img/frontPageBg.png);}
+.sd_left {float:left;}
+.sd_right {float:right;}
+.sd_clear {clear:both;}
+
+html, body {height:100%; overflow:hidden;}
 
 .btnArea {height:40px; background-color:#4d6eb1; line-height:40px; cursor:pointer; padding:0 20px;}
 
 .btnArea a {margin:5px; padding:3px; background-color:#FFF; color:#666;}
 .btnArea a:hover {color:#FFF; background-color:#900;}
+/**列表区域**/
+.list {width:360px; height:100%;}
+/*总计*/
+.total {font:"Times New Roman", Times, serif; font-weight:bold; font-size:40px; height:100px; text-align:center; line-height:100px;}
+
+.btn {float:left; cursor:pointer; padding:5px; font-size:16px; font-weight:bold;}
+/*列表*/
+.table .th {background-color:#4d6eb1; color:#CCC;}
+.table .th .td {float:left; border-right:1px #CCC solid; height:13px; padding:5px 2px; text-align:center;}
+
+.tbody {overflow:auto; height:350px;}
+.table .rownum { width:32px;}
+.table .check { width:20px;}
+.table .data { width:156px; font-size:14px; font-weight:bold;}
+.table .th .time, .table .tr .time { width:130px; border:none;}
+
+.row {border:1px #CCCCCC solid; cursor:pointer;}
+.row .td {text-align:center; float:left; border-right:1px #CCCCCC solid; height:10px; padding:10px 2px;}
+.subRow {display:none; background-color:#FFF; padding:5px; border:1px #CCCCCC solid;}
+
+.tb {background-color:#dee0e4; height:18px; padding:5px;}
+.tb span {margin:5px; cursor:pointer;}
+.curPage {width:20px; text-align:center;}
+/**图形区域**/
+.chart {width:360px; height:100%; margin-left:16px; background-color:#FFF;}

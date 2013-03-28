@@ -19,6 +19,9 @@ var pageInit = function() {
 	$(".sd_body").height(pageHeight - headHeight - bodyTopMargin);
 	$(".sd_menus").height(pageHeight - headHeight - bodyTopMargin);
 	$(".menus").height($(".sd_menus").height() - $(".m_head").height());
+	//将iframe的大小传到子页面
+	var oldPage = $("#mainPage").attr("src");
+	$("#mainPage").attr("src",  oldPage + "?pageHeight=" + $(".sd_body").height());
 }
 /**
  * 绑定事件
