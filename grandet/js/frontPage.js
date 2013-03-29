@@ -3,7 +3,7 @@ $(document).ready(function(){
 	pageInit();
 });
 
-$(window).resize(function(e) {alert(1);
+$(window).resize(function(e) {
     pageInit();
 });
 

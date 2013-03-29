@@ -6,7 +6,7 @@ html, body {height:100%; overflow:hidden; background-color:#f4f4f4;}
 .sd_clear {clear:both;}
 
 /**头部**/
-.sd_head {background-color:#039; border-bottom:2px #cb8700 solid; color:#CCC;}
+.sd_head {background-color:#1e3b76; border-bottom:2px #cb8700 solid; color:#FFF;}
 .sd_head .wrap {width:980px; height:40px; margin:auto;}
 .logo {font-size:14px; margin-top:15px;}
 .sysName {width:300px; text-align:center; margin:auto; font-size:20px; font-weight:bold; padding-top:8px;}
